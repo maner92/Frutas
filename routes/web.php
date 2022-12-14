@@ -22,7 +22,7 @@ Route::get('/', function () {
 Route::get('/', [Paginas::class, 'fhome'])->name('NHome');
 Route::get('/crear', [Paginas::class, 'fingresar'])->name('Ncrear');
 
-Route::post('/guardarRecuerdo', [Paginas::class, 'procesarRecuerdos'])->name('NProcesar');
+Route::post('/guardarFruta', [Paginas::class, 'procesarFruta'])->name('NProcesar');
 
 //Función de Create
 Route::get('/fruta/create', [FrutitasC::class, 'create'])->name('fruta.create');

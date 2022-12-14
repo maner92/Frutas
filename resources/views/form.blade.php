@@ -29,7 +29,7 @@
 
         <div class="card">
             <div class="container">
-                <form action="{{route('fruta.store')}}" method="post">
+                <form action="{{route('fruta.store')}}" method="fc86">
                     @csrf
                     <div class="mt-2 form-group">
                         <label for="" class="form-label" name="labelNombre">Nombre: </label>

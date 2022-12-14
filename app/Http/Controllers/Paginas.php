@@ -27,7 +27,7 @@ class Paginas extends Controller
             return "No se llenó el titulo";
     }*/
 
-    public function procesarRecuerdos(frutas $req)
+    public function procesarFruta(frutas $req)
     {
         //return $req->all();
         return redirect('/crear')->with('confirmacion', 'Tu recuerdo llegó al controlador');
